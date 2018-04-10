@@ -1,26 +1,49 @@
 .bigBox1{
     background-color: antiquewhite;
-    width:50vw;
+    width:30vw;
     height:50vw;
   /*  display:flex;*/
     float:left;
-   
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+    vertical-align:middle;
+    line-height: 50vw;
 }
 
 
-.inner-box-1{
+.bigBox3{
     background-color:chartreuse;
-    height: 50%;
-    width: 50%;
+    width: 20vw;
+    height: 50vw;
+    float:left;
+    
+    
     
 }
 
 .bigBox2{
     background-color:aqua;
-    width:48.6vw;
+    width:48.5vw;
     height:50vw;
-    float:right;
+    float:left;
 
+}
+
+.bigBox4{
+    background-color: cadetblue;
+    width:98.5vw;
+    height:10vw;
+    display:flex; 
+}
+
+#four{
+    line-height:10vw;
+    text-align: center;
+    vertical-align: middle;
 }
 
 
